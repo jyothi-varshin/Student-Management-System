@@ -19,22 +19,41 @@ It allows handling of admission details, marks, and attendance -  all in one pla
 - File handling for data storage
 
 ## How to Run
-1. Run using JAR file (Quickest way):
-   Make sure Java (JDK 8 or above) is installed
-   Download the StudentApp.jar file
-   Open terminal / command prompt in that folder
-   Run:
-      java -jar StudentApp.jar
-   
-2. Run using Source Code:
-   Clone the repository:
-      git clone <repo-url>
-      Navigate to the project folder
-      Compile all Java files:
-         javac *.java
-      Run the main class:
-         java StudentDetails
-   
+
+### 1. Run using JAR file (Quickest way)
+
+1. Make sure Java (JDK 8 or above) is installed
+2. Download the `StudentApp.jar` file
+3. Open terminal / command prompt in that folder
+4. Run:
+
+```bash
+java -jar StudentApp.jar
+```
+
+---
+
+### 2. Run using Source Code
+
+1. Clone the repository:
+
+```bash
+git clone <repo-url>
+```
+
+2. Navigate to the project folder
+
+3. Compile all Java files:
+
+```bash
+javac *.java
+```
+
+4. Run the main class:
+
+```bash
+java StudentDetails
+```
 ## Notes:
 - Make sure Java is properly installed and added to PATH
 - The project uses basic file storage, so data will be saved locally
